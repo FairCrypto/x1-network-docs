@@ -16,5 +16,5 @@ polygon-edge secrets init --data-dir data
 wget https://x1-devnet.s3.us-west-2.amazonaws.com/genesis.json
 
 # Start the node
-polygon-edge server --data-dir ./data --chain genesis.json --grpc-address :10000 --libp2p :10001 --jsonrpc :10002
+./polygon-edge server --data-dir ./data --chain genesis.json --grpc-address :10000 --libp2p :10001 --jsonrpc :10002
 ```
